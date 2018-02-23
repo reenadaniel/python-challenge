@@ -1,6 +1,6 @@
 import re
 
-#PyParagraph complete
+#PyParagraph Final
 
 def paragraph(inputfile, outputfile):
     with open(str(inputfile), 'r') as file:
@@ -36,13 +36,19 @@ def paragraph(inputfile, outputfile):
 
     averagewordspersent = num_words / totalsent
 
+    print("Paragraph Analysis for " + str(inputfile))
+
+    print("*********************************************************")
+
     print("Total Word Count:", num_words)
 
     print("Total Sentence Count:", totalsent)
 
-    print("The average number of characters per word is: " + str(averagecharacters))
+    print("The average letter count is: " + str(averagecharacters))
 
-    print("The average number of words per sentence is: " + str(averagewordspersent))
+    print("The average sentence length is: " + str(averagewordspersent))
+
+    print("*********************************************************")
 
     file.close()
 
