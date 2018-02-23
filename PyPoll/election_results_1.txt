@@ -1,0 +1,16 @@
+Election Results
+------------------------------------------------------
+Total Votes : 803000
+Candidate Vestal got 385440 votes. 
+Candidate Vestal got 48.0 percent of votes. 
+------------------------------------------------------
+Candidate Torres got 353320 votes. 
+Candidate Torres got 44.0 percent of votes. 
+------------------------------------------------------
+Candidate Seth got 40150 votes. 
+Candidate Seth got 5.0 percent of votes. 
+------------------------------------------------------
+Candidate Cordin got 24090 votes. 
+Candidate Cordin got 3.0 percent of votes. 
+------------------------------------------------------
+candidate Vestal is the winner with 385440 votes and 48.0 percent of votes. 
