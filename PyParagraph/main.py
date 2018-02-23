@@ -1,6 +1,6 @@
 import re
 
-#PyParagraph
+#PyParagraph complete
 
 def paragraph(inputfile, outputfile):
     with open(str(inputfile), 'r') as file:
