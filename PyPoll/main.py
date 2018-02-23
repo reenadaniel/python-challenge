@@ -1,7 +1,7 @@
 import os
 import csv
 
-#PyPoll
+#PyPoll complete
 
 def elections(inputfile, outputfile):
     if not os.path.exists(inputfile):
@@ -43,8 +43,7 @@ def elections(inputfile, outputfile):
         if winner is None or mydict[candidate] > max_votes:
             winner = candidate
             max_votes = mydict[candidate]
-
-        print("------------------------------------------------------")
+    print("------------------------------------------------------")
     print('Candidate', winner, 'is the winner with', max_votes, 'votes')
     print("------------------------------------------------------")
 
